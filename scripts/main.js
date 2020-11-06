@@ -1,3 +1,6 @@
+import tabJourOrdre from './Utilitaire/gestionTemps.js';
+
+console.log('Depuis main js',tabJourOrdre);
 const CLEFAPI = "b93bf2e390b99c07d176f7c11e5b0012";
 let resultAPI;
 
