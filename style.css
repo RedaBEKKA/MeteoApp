@@ -103,3 +103,24 @@ h1{
     margin: 5px;
 }
 
+/*Animation chargement*/
+
+.overlay-icon-chargement{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(100,0,100),rgb(0,100,200));
+    transition: opacity 1.1s ease-out;
+    z-index: 1000;
+}
+
+.overlay-icon-chargement img{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.disparition{
+    opacity: 0;
+}
